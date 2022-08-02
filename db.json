@@ -41,6 +41,72 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Maize",
+      "image": "https://www.thespruce.com/thmb/2l_J80LOjYAWF-l5ke_QOU767Gw=/3000x1687/smart/filters:no_upscale()/spider-plants-chlorophytum-definition-1902773-01b-353dd3aab6e9465497dc0b82d6377124.jpg",
+      "price": "45",
+      "id": 8
+    },
+    {
+      "name": "Maize",
+      "image": "https://images.theconversation.com/files/220126/original/file-20180523-51091-1vbq7lu.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop",
+      "price": "56",
+      "id": 9
+    },
+    {
+      "name": "Milk",
+      "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_960,f_auto/DCTM_Penguin_UK_DK_AL458052_zs2mia.png",
+      "price": "78.01",
+      "id": 10
+    },
+    {
+      "name": "Aloe",
+      "image": "https://post.healthline.com/wp-content/uploads/2022/01/snake-plant-detail-732x549-thumbnail.jpg",
+      "price": "35",
+      "id": 11
+    },
+    {
+      "name": "Aloe",
+      "image": "https://post.healthline.com/wp-content/uploads/2022/01/snake-plant-detail-732x549-thumbnail.jpg",
+      "price": "35",
+      "id": 12
+    },
+    {
+      "name": "Aloe",
+      "image": "https://post.healthline.com/wp-content/uploads/2022/01/snake-plant-detail-732x549-thumbnail.jpg",
+      "price": "35",
+      "id": 13
+    },
+    {
+      "name": "Alota",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKxw2qezXQ9SuDw9d1nNA4873XFW7eH5xHMrQCx9nkp3mC9GA1DeYJHsfoXQkP0bEGGoA&usqp=CAU",
+      "price": "35",
+      "id": 14
+    },
+    {
+      "name": "Maize",
+      "image": "https://www.thespruce.com/thmb/2l_J80LOjYAWF-l5ke_QOU767Gw=/3000x1687/smart/filters:no_upscale()/spider-plants-chlorophytum-definition-1902773-01b-353dd3aab6e9465497dc0b82d6377124.jpg",
+      "price": "500",
+      "id": 15
+    },
+    {
+      "name": "aluta",
+      "image": "https://www.thespruce.com/thmb/2l_J80LOjYAWF-l5ke_QOU767Gw=/3000x1687/smart/filters:no_upscale()/spider-plants-chlorophytum-definition-1902773-01b-353dd3aab6e9465497dc0b82d6377124.jpg",
+      "price": "45",
+      "id": 16
+    },
+    {
+      "name": "aluta",
+      "image": "https://www.thespruce.com/thmb/2l_J80LOjYAWF-l5ke_QOU767Gw=/3000x1687/smart/filters:no_upscale()/spider-plants-chlorophytum-definition-1902773-01b-353dd3aab6e9465497dc0b82d6377124.jpg",
+      "price": "45",
+      "id": 17
+    },
+    {
+      "name": "Milk",
+      "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_960,f_auto/DCTM_Penguin_UK_DK_AL458052_zs2mia.png",
+      "price": "56",
+      "id": 18
     }
   ]
 }

@@ -5,19 +5,30 @@ import Search from "./Search";
 
 function PlantPage() {
   const[plants, setPlants] = useState([]);
-
+  const[search, setSearch] = useState(plants)
   useEffect(() =>{
     fetch("http://localhost:6001/plants")
       .then(r =>r.json())
       .then(data => setPlants(data))
-  },[])
+  },[search])
+  const onAddPlant = (newPlant) =>{
+    setPlants([...plants,newPlant].reverse())
+  }
+   console.log(plants);
 
-  console.log(plants);
+
+
+
+    const onSearch =(value) =>{
+    setSearch(plants.filter(plant =>plant.name.toLowerCase().includes(value.toLowerCase())))
+  }
+
+
   return (
     <main>
-      <NewPlantForm />
-      <Search />
-      <PlantList plants={plants}/>
+      <NewPlantForm onAddPlant={onAddPlant} />
+      <Search onSearch={onSearch}/>
+      <PlantList search={search}/>
     </main>
   );
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import PlantCard from "./PlantCard";
 
-function PlantList({plants}) {
+function PlantList({search}) {
+  //console.log(search);
   return (
-    <ul className="cards">{plants.map((plant) => (
+    <ul className="cards">{search.map((plant) => (
       <PlantCard name={plant.name} image={plant.image} price={plant.price} key={plant.id}/>
     ))}</ul>
   );
