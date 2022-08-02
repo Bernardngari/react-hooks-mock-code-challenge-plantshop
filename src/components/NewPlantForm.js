@@ -3,7 +3,7 @@ import {useForm} from "react-hook-form"
 
 function NewPlantForm({onAddPlant}) {
   const {register,handleSubmit, formState:{errors}} = useForm();
-  const onFormSubmit =(data) => {
+  const onFormSubmit =(data,e) => {
     fetch("http://localhost:6001/plants",{
     method:"POST",
     headers:{
@@ -13,6 +13,7 @@ function NewPlantForm({onAddPlant}) {
     })
     .then(r=>r.json())
     .then(newPlant => onAddPlant(newPlant))
+    e.target.reset()
   }
   return (
     <div className="new-plant-form">
